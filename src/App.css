@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
+.todo-input, .todo-btn {
+  padding : 1rem;
+  font-size: 2rem;
+  border: none;
+  background: #c3c3c3;
+}
+
+.todo-input {
+  outline: none;
+}
+
+.todo-btn {
+  cursor: pointer;
+  color: #ff6f47;
+ 
+}
+
+.todo-btn :hover {
+  color: #c3c3c3;
+  background: #ff6f47;
+  transition: all 0.3s ease;
+} 
+
+button:hover {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+ul {
+  width: 200px;
+  align-content: center;
+  justify-items: center;
+  justify-content: center;
+  margin: 10px auto;
+  list-style: none;
+}
+
+ul li {
+  background-color: #ccc;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin-bottom: 5px;
+}
+
+button {
+  font-size: 30px;
+  color: #ff6f47;
+  margin: 2px;
+
+}
